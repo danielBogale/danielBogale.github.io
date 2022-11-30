@@ -3,18 +3,16 @@ body{
     margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.subTitle {
+
+h3 > b{
     color: #1c98c9;
-}
-p > b{
-    color: darkorange;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
 
 /* pseudo-element example */
-p::first-letter{
+h3::first-letter{
     text-transform: capitalize;
     font-size: 1.5em;
 }
