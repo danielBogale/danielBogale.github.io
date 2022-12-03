@@ -1,0 +1,35 @@
+body{
+    width: 100%; 
+    max-width: 1024px;
+    background-color: #FFFFFF;
+    margin: auto;
+    background-image: url("./recipeImages/silverware.jpg");
+}
+
+h1.first{
+    color: #A4A400;
+    text-align: center;
+    background-color: #F0F0F0;
+}
+
+h2.first{
+    background-color: #F0F0F0;
+    color: #ebeb2f;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    letter-spacing: 0.25em;
+}
+
+p.userend{
+    background-color: #FFFFA8;
+}
+
+div.endpart{
+    float: right;
+}
+
+ul.pieicon{
+    
+    list-style-image: url(./pie_icon.gif);
+}
+
