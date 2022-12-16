@@ -1,0 +1,16 @@
+{
+  "name": "q1",
+  "version": "1.0.0",
+  "description": "WAP express assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "npx nodemon index.js"
+  },
+  "author": "Binod Gurung",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
