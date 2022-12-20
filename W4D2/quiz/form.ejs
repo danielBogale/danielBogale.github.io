@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quiz</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <style>
+        body {
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1, #btns { text-align: center; }
+        span.label {
+            display: inline-block;
+            width: 135px;
+        }
+        table {
+            border-spacing: 0px;
+        }
+        td{
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Computers</h1>
+    <p id="btns">
+        <button id="button1">1</button>
+        <button id="button2">2</button>
+        <button id="button3">3</button>
+    </p>
+    <div>
+        <span class="label">CPU Speed:</span>
+        <span id="cpuSpeed">click a button to load</span>
+    </div>
+    <div>
+        <span class="label">Ram amount:</span>
+        <span id="ramAmount">click a button to load</span>
+    </div>
+    <div>
+        <span class="label">Storage space:</span>
+        <span id="storage">click a button to load</span>
+    </div>
+    <div>
+        <span class="label">Price:</span>
+        <span id="price">click a button to load</span>
+    </div>
+
+    <hr>
+
+    <table>
+        <tr>
+            <td id="binod">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td id="gurung">&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+        </tr>
+    </table>
+    <hr>
+    <div id="mydiv">
+
+    </div>
+</body>
+
+</html>
